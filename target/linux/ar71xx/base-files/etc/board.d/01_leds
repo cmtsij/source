@@ -1043,6 +1043,11 @@ wzr-hp-g450h)
 xd3200)
 	ucidef_set_led_wlan "wlan2g" "WLAN2G" "$board:blue:wlan2g" "phy1tpt"
 	;;
+xwr100)
+	ucidef_set_led_wlan "wlan" "WLAN" "xwr100:white:wlan" "phy0tpt"
+	ucidef_set_led_default "wps" "WPS" "xwr100:white:wps" "0"
+	ucidef_set_led_usbdev "usb" "USB" "xwr100:white:usb" "1-1"
+	;;
 z1)
 	ucidef_set_led_netdev "wlan1" "WLAN1" "$board:blue:tricolor0" "wlan1"
 	;;

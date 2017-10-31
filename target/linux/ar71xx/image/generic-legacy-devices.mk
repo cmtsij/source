@@ -419,6 +419,12 @@ define LegacyDevice/WZR450HP2
 endef
 LEGACY_DEVICES += WZR450HP2
 
+define LegacyDevice/XWR100
+  DEVICE_TITLE := Vizio XWR100
+  DEVICE_PACKAGES := kmod-usb-core kmod-usb-ohci kmod-usb2 kmod-usb-ledtrig-usbport
+endef
+LEGACY_DEVICES += XWR100
+
 define LegacyDevice/ZCN1523H28
   DEVICE_TITLE := Zcomax ZCN-1523H-2-8
 endef
